@@ -1,0 +1,22 @@
+html{
+    height: 100%;
+}
+#bg-text
+{
+    color:lightgrey;
+    font-size:120px;
+
+}
+.watermark {
+    font-size:120px;
+    opacity: 0.5;
+    color: WHITE;
+    position: fixed;
+    top: 70%;
+    left: 75%;
+}
+
+.bk_color
+{
+background-color : #7E3517;
+}

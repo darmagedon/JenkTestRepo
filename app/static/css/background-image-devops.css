@@ -1,0 +1,20 @@
+.background_image_ec2{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+body{
+/*background-image: url("../images/woodpanels.jpg");*/
+    background-size: 100% 100%;
+}
+
+body.home-bg{
+/*background-image: url("../images/cloud-computing.jpg");*/
+
+}
+
+img.graphs{
+    width:500px;
+    height: auto;
+}
