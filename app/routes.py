@@ -3,9 +3,6 @@ from forms import GraphChoice
 import subprocess
 import requests
 import time
-from login_to_subisu import GraphSubisu
-from login_to_wlink import GraphWlink
-from login_to_cacti import GraphCacti
 import os
 base = os.getcwd()
 script = os.path.join(base,'templates')
@@ -53,4 +50,4 @@ def cacti_graph():
     return render_template('cacti_graph.html')
 
 if __name__ == '__main__':
-	app.run(host='0.0.0.0')
+	app.run(host='0.0.0.0', port=4000)
