@@ -11,11 +11,11 @@ print script
 app = Flask(__name__)
 app.secret_key='development'
 
-#@app.route('/')
 #def index():
  #   return render_template('index.html')
 
 # @app.route('/', methods=['GET','POST'])
+#@app.route('/')
 @app.route('/')
 def index():
     form = GraphChoice()
