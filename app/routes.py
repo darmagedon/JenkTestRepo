@@ -19,7 +19,7 @@ app.secret_key='development'
 @app.route('/')
 def index():
     form = GraphChoice()
-    return render_template('index.html',form=form)
+    return render_template('index.html')
 
 # @app.route('/subisu', methods=['GET', 'POST'])
 # def get_graph():
@@ -50,4 +50,4 @@ def cacti_graph():
     return render_template('cacti_graph.html')
 
 if __name__ == '__main__':
-	app.run(host='0.0.0.0', port=6000)
+	app.run(host='0.0.0.0', port=8090)
